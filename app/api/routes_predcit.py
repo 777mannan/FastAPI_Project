@@ -13,7 +13,8 @@ class CarFeaturees(BaseModel):
     seller_type:str
     transmission:str
     km_driven:float
-    mileage_cc:float
+    mileage_mpg:float
+    engine_cc:float
     max_power_bhp:float
     torque_nm:float
     seats:float
